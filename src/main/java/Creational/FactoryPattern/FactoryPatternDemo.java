@@ -1,6 +1,12 @@
 package Creational.FactoryPattern;
 
 public class FactoryPatternDemo {
+    /**
+     * 1.创建一个 Shape 接口和实现 Shape 接口的实体类
+     * 2.下一步是定义工厂类 ShapeFactory
+     * 3.FactoryPatternDemo 使用 ShapeFactory 来获取 Shape 对象
+     *   它将向 ShapeFactory 传递信息（ CIRCLE / RECTANGLE / SQUARE ），以便获取它所需对象的类型
+     */
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 

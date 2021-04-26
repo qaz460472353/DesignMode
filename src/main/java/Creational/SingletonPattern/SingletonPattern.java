@@ -1,5 +1,11 @@
 package Creational.SingletonPattern;
-
+/**
+ * @description 单例设计模式
+ *  保证一个类仅有一个实例，并提供一个访问它的全局访问点
+ *  主要解决一个全局使用的类频繁地创建与销毁
+ * @date 2021/4/26 9:40
+ * @auther ZY
+ */
 public class SingletonPattern {
     /**
      * 饿汉式

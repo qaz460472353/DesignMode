@@ -1,5 +1,10 @@
 package Structural.AdapterPattern;
-
+/**
+ * @description 适配器模式
+ *  为不同不兼容的接口之间建立一个桥梁
+ * @date 2021/4/26 9:46
+ * @auther ZY
+ */
 public class AdapterPatternDemo {
     public static void main(String[] args) {
         AudioPlayer audioPlayer = new AudioPlayer();
